@@ -1,0 +1,145 @@
+
+.mainbox {
+  display: flex;
+  width: 90%;
+  height: 450px;
+  border-radius: 25px;
+  background-image: url('/public/images/namecard03.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+}
+
+.characterimage {
+  display: flex;
+  width: 25%;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  object-fit: cover;
+
+}
+
+.maintext {
+    width: 1000px;
+    height: 430px;
+    font-size: 1.2em;
+    font-weight: normal;
+    color: rgb(196, 196, 196);
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 5px;
+   /* background-color: royalblue;*/
+}
+
+.secondbox {
+  display: flex;
+  width: 90%;
+  height: 400px;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  /*background-color: rgb(17, 159, 152);*/
+  margin-bottom: 25px;
+}
+
+.searchBox01 {
+  display: flex;
+  width: 450px;
+  height: 70px;
+  margin: 15px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: rgb(90, 134, 128);
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.searchBox02 {
+  display: flex;
+  width: 450px;
+  height: 70px;
+  margin: 15px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: rgb(55, 118, 117);
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.searchBox03 {
+  display: flex;
+  width: 450px;
+  height: 70px;
+  margin: 15px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: rgb(11, 83, 72);
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.qimage {
+  width: 250px;
+  height: 200px;
+  margin: 5px;
+  border-radius: 25px;
+  background-color: white;
+  object-fit: cover;
+}
+.namecard {
+  display: flex;
+  width: 500px;
+  height: 160px;
+  margin: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: rgb(90, 134, 128);
+  object-fit: cover;
+}
+
+.artworkCard {
+  display: flex;
+  width: 200px;
+  height: 260px;
+  margin: 5px;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background-color: rgb(90, 91, 134);
+}
+
+.artworkbutton {
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: rgb(42, 113, 103);
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.card {
+  width: 500px;
+  height: 400px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  border-radius: 8px;
+  margin: 0 5px;
+
+}
